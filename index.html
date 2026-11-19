@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min naturportfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav aria-label="Huvudmeny">
+            <a href="#hem">Hem</a>
+            <a href="#galleri">Galleri</a>
+            <a href="#om-mig">Om mig</a>
+            <a href="#kontakt">Kontakt</a>
+
+        </nav>
+    </header>
+    <main>
+        <h1>Min naturportfolio</h1>
+        <p>Hej och välkomna till min naturportfolio</p>
+        <section id="hem">
+            <h2>Hem</h2>
+            <p>Detta är min naturportfolio där jag delar med mig av mina naturupplevelser och fotografier.</p>
+        </section>
+
+        <section id="galleri">
+            <h2>Galleri</h2>
+            <button id="filtera-skog-bilder-images">Skogen</button>
+            <button id="filtera-sjon-bilder-images">Sjön</button>
+            <button id="filtera-blommor-bilder-images">Blommor</button>
+            <p>Här är några av mina favoritbilder från naturen.</p>
+
+            <div class="gallery">
+                <img src="mitchell-orr-xNQv-S1-_20-unsplash.jpg" alt="Skogen" class="skog">
+                <img src="istockphoto-1069137624-1024x1024.jpg" alt="Sjön" class="sjon">
+                <img src="mohammad-rahman-606T1zDeApc-unsplash.jpg" alt="en blomma" class="blommor">
+            </div>        
+        </section>
+
+        <section id="om-mig">
+            <h2>Om mig</h2>
+            <p>Jag är en naturälskare som älskar att utforska och titta på bilder från naturen.</p>
+        </section>
+
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <p>Om du vill kontakta mig, vänligen skicka ett e-postmeddelande till: <a href="mailto:besitun@hotmail.com">besitun@hotmail.com</a></p>
+            <form id="kontakt-form" >
+                <label for="namn">Namn:</label>
+                <input type="text" id="namn" name="namn" required>
+
+                <label for="email">E-post:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="meddelande">Meddelande:</label>
+                <textarea id="meddelande" name="meddelande" required></textarea>
+
+                <button type="submit">Skicka</button>
+            </form>
+
+        </section>
+
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
